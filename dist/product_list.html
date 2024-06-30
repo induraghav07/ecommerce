@@ -727,7 +727,7 @@
             <div class="hs-accordion-group" data-hs-accordion-always-open="">
                 <h1 class="p-2 rounded-lg lg:border lg:border-gray-200 mb-3 text-lg flex items-center justify-between font-semibold">FILTER <span class="px-4 lg:hidden py-1 border border-gray-300 rounded-md" onclick="onCloseOverlay()">X</span></h1>
                 <div class="hs-accordion active bg-white border -mt-px first:rounded-t-lg last:rounded-b-lg dark:bg-neutral-800 dark:border-neutral-700" id="hs-bordered-heading-one">
-                  <button class="hs-accordion-toggle hs-accordion-active:text-gray-600 inline-flex items-center gap-x-3 w-full font-semibold text-start text-gray-800 py-4 px-5 hover:text-gray-500 disabled:opacity-50 disabled:pointer-events-none dark:hs-accordion-active:text-blue-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:outline-none dark:focus:text-neutral-400" aria-controls="hs-basic-bordered-collapse-one">
+                  <button class="hs-accordion-toggle text-sm hs-accordion-active:text-gray-600 inline-flex items-center gap-x-3 w-full font-semibold text-start text-gray-800 py-4 px-5 hover:text-gray-500 disabled:opacity-50 disabled:pointer-events-none dark:hs-accordion-active:text-blue-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:outline-none dark:focus:text-neutral-400" aria-controls="hs-basic-bordered-collapse-one">
                     <svg class="hs-accordion-active:hidden block size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                       <path d="M5 12h14"></path>
                       <path d="M12 5v14"></path>
@@ -739,22 +739,46 @@
                   </button>
                   <div id="hs-basic-bordered-collapse-one" class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-bordered-heading-one">
                     <div class="pb-4 px-5">
-                          <div class="text-gray-800 flex gap-2 flex-wrap dark:text-neutral-200">
-                            <a href="#" class="size-7 bg-[#ddcea5] rounded-full"></a>
-                            <a href="#" class="size-7 bg-[#d0932b] rounded-full"></a>
-                            <a href="#" class="size-7 bg-[#980000] rounded-full"></a>
-                            <a href="#" class="size-7 bg-[#34c277] rounded-full"></a>
-                            <a href="#" class="size-7 bg-[#00b7d9] rounded-full"></a>
-                            <a href="#" class="size-7 bg-[#f44952] rounded-full"></a>
-                            <a href="#" class="size-7 bg-[#e47b5a] rounded-full"></a>
-                            <a href="#" class="size-7 bg-[#d6bdc3] rounded-full"></a>
+                          <div class="text-gray-800 flex gap-x-2 gap-y-3 flex-wrap dark:text-neutral-200">
+                            <a href="#" class="inline-flex p-2 border shadow-sm shadow-[#ddcea5] border-[#ddcea5] rounded-md items-center">
+                              <span class="text-gray-800 font-medium text-[11px]">Hazel</span>
+                              <span class="size-3 inline-block bg-[#ddcea5] rounded-full ms-2"></span>
+                            </a>
+                            <a href="#" class="inline-flex p-2 border shadow-sm shadow-[#d0932b] border-[#d0932b] rounded-md items-center">
+                              <span class="text-gray-800 font-medium text-[11px]">Tiger</span>
+                              <span class="size-3 inline-block bg-[#d0932b] rounded-full ms-2"></span>
+                            </a>
+                            <a href="#" class="inline-flex p-2 border shadow-sm shadow-[#980000] border-[#980000] rounded-md items-center">
+                              <span class="text-gray-800 font-medium text-[11px]">Crimson</span>
+                              <span class="size-3 inline-block bg-[#980000] rounded-full ms-2"></span>
+                            </a>
+                            <a href="#" class="inline-flex p-2 border shadow-sm shadow-[#34c277] border-[#34c277] rounded-md items-center">
+                              <span class="text-gray-800 font-medium text-[11px]">Greenish Teal</span>
+                              <span class="size-3 inline-block bg-[#34c277] rounded-full ms-2"></span>
+                            </a>
+                            <a href="#" class="inline-flex p-2 border shadow-sm shadow-[#00b7d9] border-[#00b7d9] rounded-md items-center">
+                              <span class="text-gray-800 font-medium text-[11px]">Bright Cerulean</span>
+                              <span class="size-3 inline-block bg-[#00b7d9] rounded-full ms-2"></span>
+                            </a>
+                            <a href="#" class="inline-flex p-2 border shadow-sm shadow-[#f44952] border-[#f44952] rounded-md items-center">
+                              <span class="text-gray-800 font-medium text-[11px]">Watermelon</span>
+                              <span class="size-3 inline-block bg-[#f44952] rounded-full ms-2"></span>
+                            </a>
+                            <a href="#" class="inline-flex p-2 border shadow-sm shadow-[#e47b5a] border-[#e47b5a] rounded-md items-center">
+                              <span class="text-gray-800 font-medium text-[11px]">Dark Peach</span>
+                              <span class="size-3 inline-block bg-[#e47b5a] rounded-full ms-2"></span>
+                            </a>
+                            <a href="#" class="inline-flex p-2 border shadow-sm shadow-[#D6BDC3] border-[#D6BDC3] rounded-md items-center">
+                              <span class="text-gray-800 font-medium text-[11px]">Pinkish Red</span>
+                              <span class="size-3 inline-block bg-[#D6BDC3] rounded-full ms-2"></span>
+                            </a>
                           </div>
                     </div>
                   </div>
                 </div>
               
                 <div class="hs-accordion bg-white border -mt-px first:rounded-t-lg last:rounded-b-lg dark:bg-neutral-800 dark:border-neutral-700" id="hs-bordered-heading-two">
-                  <button class="hs-accordion-toggle hs-accordion-active:text-gray-600 inline-flex items-center gap-x-3 w-full font-semibold text-start text-gray-800 py-4 px-5 hover:text-gray-500 disabled:opacity-50 disabled:pointer-events-none dark:hs-accordion-active:text-blue-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:outline-none dark:focus:text-neutral-400" aria-controls="hs-basic-bordered-collapse-two">
+                  <button class="hs-accordion-toggle text-sm hs-accordion-active:text-gray-600 inline-flex items-center gap-x-3 w-full font-semibold text-start text-gray-800 py-4 px-5 hover:text-gray-500 disabled:opacity-50 disabled:pointer-events-none dark:hs-accordion-active:text-blue-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:outline-none dark:focus:text-neutral-400" aria-controls="hs-basic-bordered-collapse-two">
                     <svg class="hs-accordion-active:hidden block size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                       <path d="M5 12h14"></path>
                       <path d="M12 5v14"></path>
@@ -766,7 +790,7 @@
                   </button>
                   <div id="hs-basic-bordered-collapse-two" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-bordered-heading-two">
                     <div class="pb-4 px-5">
-                        <div class="text-gray-800 flex flex-col dark:text-neutral-200">
+                        <div class="flex gap-y-2 text-xs flex-col dark:text-neutral-200">
                             <a href="#" class="font-medium text-gray-500">Oversized Fit</a>
                             <a href="#" class="font-medium text-gray-500">Plain</a>
                             <a href="#" class="font-medium text-gray-500">Full Sleeve</a>
@@ -776,7 +800,7 @@
                 </div>
               
                 <div class="hs-accordion bg-white border -mt-px first:rounded-t-lg last:rounded-b-lg dark:bg-neutral-800 dark:border-neutral-700" id="hs-bordered-heading-three">
-                  <button class="hs-accordion-toggle hs-accordion-active:text-gray-600 inline-flex items-center gap-x-3 w-full font-semibold text-start text-gray-800 py-4 px-5 hover:text-gray-500 disabled:opacity-50 disabled:pointer-events-none dark:hs-accordion-active:text-blue-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:outline-none dark:focus:text-neutral-400" aria-controls="hs-basic-bordered-collapse-three">
+                  <button class="hs-accordion-toggle text-sm hs-accordion-active:text-gray-600 inline-flex items-center gap-x-3 w-full font-semibold text-start text-gray-800 py-4 px-5 hover:text-gray-500 disabled:opacity-50 disabled:pointer-events-none dark:hs-accordion-active:text-blue-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:outline-none dark:focus:text-neutral-400" aria-controls="hs-basic-bordered-collapse-three">
                     <svg class="hs-accordion-active:hidden block size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                       <path d="M5 12h14"></path>
                       <path d="M12 5v14"></path>
@@ -788,18 +812,18 @@
                   </button>
                   <div id="hs-basic-bordered-collapse-three" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-bordered-heading-three">
                     <div class="pb-4 px-5">
-                      <div class="text-gray-800 flex flex-col dark:text-neutral-200">
-                        <a href="#">S</a>
-                        <a href="#">M</a>
-                        <a href="#">L</a>
-                        <a href="#">XL</a>
-                        <a href="#">XXL</a>
+                      <div class="flex text-xs gap-y-2 font-medium flex-col dark:text-neutral-200">
+                        <a href="#" class="text-gray-500">S</a>
+                        <a href="#" class="text-gray-500">M</a>
+                        <a href="#" class="text-gray-500">L</a>
+                        <a href="#" class="text-gray-500">XL</a>
+                        <a href="#" class="text-gray-500">XXL</a>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="hs-accordion bg-white border -mt-px first:rounded-t-lg last:rounded-b-lg dark:bg-neutral-800 dark:border-neutral-700" id="hs-bordered-heading-three">
-                    <button class="hs-accordion-toggle hs-accordion-active:text-gray-600 inline-flex items-center gap-x-3 w-full font-semibold text-start text-gray-800 py-4 px-5 hover:text-gray-500 disabled:opacity-50 disabled:pointer-events-none dark:hs-accordion-active:text-blue-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:outline-none dark:focus:text-neutral-400" aria-controls="hs-basic-bordered-collapse-three">
+                    <button class="hs-accordion-toggle text-sm hs-accordion-active:text-gray-600 inline-flex items-center gap-x-3 w-full font-semibold text-start text-gray-800 py-4 px-5 hover:text-gray-500 disabled:opacity-50 disabled:pointer-events-none dark:hs-accordion-active:text-blue-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:outline-none dark:focus:text-neutral-400" aria-controls="hs-basic-bordered-collapse-three">
                       <svg class="hs-accordion-active:hidden block size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M5 12h14"></path>
                         <path d="M12 5v14"></path>
@@ -811,15 +835,15 @@
                     </button>
                     <div id="hs-basic-bordered-collapse-three" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-bordered-heading-three">
                       <div class="pb-4 px-5">
-                        <div class="text-gray-800 flex flex-col dark:text-neutral-200">
+                        <div class="text-gray-800 flex gap-y-2 flex-col dark:text-neutral-200">
                             <div class="flex">
                                 <input type="checkbox" class="shrink-0 mt-0.5 border-gray-200 rounded text-blue-600 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-800 dark:border-neutral-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800" id="hs-default-checkbox">
-                                <label for="hs-default-checkbox" class="text-sm text-gray-500 ms-2 cursor-pointer dark:text-neutral-400">Price: Low to High</label>
+                                <label for="hs-default-checkbox" class="text-xs font-medium text-gray-500 ms-2 cursor-pointer dark:text-neutral-400">Price: Low to High</label>
                               </div>
                               
                               <div class="flex">
                                 <input type="checkbox" class="shrink-0 mt-0.5 border-gray-200 rounded text-blue-600 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-800 dark:border-neutral-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800" id="hs-checked-checkbox">
-                                <label for="hs-checked-checkbox" class="text-sm text-gray-500 ms-2 cursor-pointer dark:text-neutral-400">Price: High to Low</label>
+                                <label for="hs-checked-checkbox" class="text-xs font-medium text-gray-500 ms-2 cursor-pointer dark:text-neutral-400">Price: High to Low</label>
                               </div>
                         </div>
                       </div>
