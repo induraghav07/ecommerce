@@ -10,12 +10,12 @@
 <body class="font-Montserrat bg-[#f8f8f8]">
     <!-- ========== HEADER ========== -->
   <section class="bg-[#ffdd00] px-3">
-    <div class="inner_top max-w-[85rem] flex justify-center py-[6px]">
-      <span class="text-black text-xs font-semibold">Free Shipping Sitewide on Every Order, Don’t Miss Out!!</span>
+    <div class="inner_top max-w-[85rem] mx-auto flex justify-center py-[6px]">
+      <span class="text-black text-center text-xs font-semibold">Free Shipping Sitewide on Every Order, Don’t Miss Out!!</span>
     </div>
   </section>
   <section class="track_bar bg-black">
-    <div class="inner_top2 max-w-[85rem] px-4 md:px-8 mx-auto flex justify-between text-xs text-white py-[6px]">
+    <div class="inner_top2 max-w-[85rem] px-3 md:px-6 lg:px-8 min-[1360px]:px-0 mx-auto flex justify-between text-xs text-white py-[6px]">
       <div class="track_block items-center flex gap-3">
         <svg width="16" height="16" viewBox="0 0 16 23" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Vector"><path d="M15 8C15 14.5228 8 21 8 21C8 21 1 14.5228 1 8C1 3.47715 4.13401 1 8 1C11.866 1 15 3.5 15 8Z" stroke="white" stroke-width="1.5" stroke-linecap="round"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M8 5C9.65685 5 11 6.34315 11 8C11 9.65685 9.65685 11 8 11C6.34315 11 5 9.65685 5 8C5 6.34315 6.34315 5 8 5Z" stroke="white" stroke-width="1.5" stroke-linecap="round"></path></g></svg>
         <a href="#" class="font-medium uppercase">Track Order</a>
@@ -27,7 +27,7 @@
     </div>
   </section>
 <header class="flex flex-wrap sticky top-0 md:justify-start md:flex-nowrap z-50 w-full bg-white border-b border-b-gray-200 text-sm py-3 md:py-0 dark:bg-gray-800">
-  <nav class="max-w-[85rem] w-full mx-auto px-4 md:px-6 lg:px-8" aria-label="Global">
+  <nav class="max-w-[85rem] w-full mx-auto px-3 md:px-6 lg:px-8 min-[1360px]:px-0" aria-label="Global">
     <div class="relative md:flex md:items-center md:justify-between">
       <div class="flex items-center justify-between">
         <a class="flex-none w-[100px] text-xl font-semibold dark:text-white" href="index.html" aria-label="Brand"><img src="./img/logo.png" alt="logo"></a>
@@ -543,6 +543,10 @@
                   <p class="text-sm font-medium text-gray-800 dark:text-neutral-300">james@site.com</p>
                 </div>
                 <div class="mt-2 py-2 first:pt-0 last:pb-0">
+                  <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-neutral-300 dark:focus:bg-neutral-700" href="my_account.html">
+                    <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                   My Account
+                  </a>
                   <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-neutral-300 dark:focus:bg-neutral-700" href="#">
                     <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>
                    Notifications
@@ -825,10 +829,13 @@
                         <p class=" text-gray-800 text-sm font-semibold">₹2028</p>
                       </div>
                     </div>
-                    <div class="cart_btn_hold mb-3 px-3">
-                      <button type="button" class="w-full justify-center uppercase py-2 px-3 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-[#42a2a2] text-white disabled:opacity-50 disabled:pointer-events-none">
+                    <div class="cart_btn_hold space-y-2 mb-3 px-3">
+                      <a href="#" type="button" class="w-full justify-center uppercase py-2 px-3 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-[#42a2a2] text-white disabled:opacity-50 disabled:pointer-events-none">
+                        Add Address
+                      </a>
+                      <a href="checkout.html" type="button" class="w-full justify-center uppercase py-2 px-3 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-[#42a2a2] text-white disabled:opacity-50 disabled:pointer-events-none">
                         Checkout securely
-                      </button>
+                      </a>
                     </div>
                     <div class="img_in">
                       <img src="./img/payment-trust-banner-desktop.svg" alt="image_description">

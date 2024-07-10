@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./output.css">
     <link rel="stylesheet" href="./custom.css">
-    <title>Document</title>
+    <title>Order Tracking</title>
 </head>
 <body class="font-Montserrat">
     <!-- ========== HEADER ========== -->
@@ -27,10 +27,10 @@
     </div>
   </section>
 <header class="flex flex-wrap sticky top-0 md:justify-start md:flex-nowrap z-50 w-full bg-white border-b border-b-gray-200 text-sm py-3 md:py-0 dark:bg-gray-800">
-  <nav class="max-w-[85rem] min-[1360px]:px-0 w-full mx-auto px-3 md:px-6 lg:px-8" aria-label="Global">
+  <nav class="max-w-[85rem] min-[1360px]:px-0 w-full mx-auto px-4 md:px-6 lg:px-8" aria-label="Global">
     <div class="relative md:flex md:items-center md:justify-between">
       <div class="flex items-center justify-between">
-        <a class="flex-none w-[100px] text-xl font-semibold dark:text-white" href="#" aria-label="Brand"><img src="./img/logo.png" alt="logo"></a>
+        <a class="flex-none w-[100px] text-xl font-semibold dark:text-white" href="index.html" aria-label="Brand"><img src="./img/logo.png" alt="logo"></a>
         
         <div class="md:hidden flex gap-4 items-center">
           <a href="#"><svg class="toggleButton2" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 15L21 21M10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10C17 13.866 13.866 17 10 17Z" stroke="black" stroke-width="1.5" stroke-linecap="round"></path></svg></a>
@@ -543,11 +543,11 @@
                   <p class="text-sm font-medium text-gray-800 dark:text-neutral-300">james@site.com</p>
                 </div>
                 <div class="mt-2 py-2 first:pt-0 last:pb-0">
-                  <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-neutral-300 dark:focus:bg-neutral-700" href="my_account.html">
-                    <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
-                   My Account
-                  </a>
-                  <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-neutral-300 dark:focus:bg-neutral-700" href="#">
+                    <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-neutral-300 dark:focus:bg-neutral-700" href="my_account.html">
+                        <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                       My Account
+                      </a>
+                    <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-neutral-300 dark:focus:bg-neutral-700" href="#">
                     <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>
                    Notifications
                   </a>
@@ -802,59 +802,478 @@
 </div>
 <!-- hidden modal -->
 <!-- ========== END HEADER ========== --> 
+    
+            <section class="w-full h-60 tracking_od">
+                <div class="innerbox px-3 md:px-6 items-center h-full flex justify-center">
+                    <h1 class="text-4xl font-semibold text-center text-white items-center">Your Order Status</h1>
+                </div>
+            </section>
 
-    <section class="px-3 lg:px-6 py-5 lg:py-10">
-        <div class="inner_wrap max-w-[73rem] mx-auto">
-            <h1 class="text-lg mb-4 font-semibold">Terms and Conditions</h1>
-            <p class="text-sm pb-1 inline-block mb-4 border-b border-b-black font-semibold text-black">1. Introduction</p>
-            <p class="text-sm mb-3 font-medium text-gray-700">Welcome to Fashion Mania! These terms and conditions outline the rules and regulations for the use of Fashion Mania's Website, located at <a href="#" class="text-blue-600">www.fashionmania.com</a>. By browsing through these Terms of Service and using the services provided by our website you agree to all Terms of Service along with the Privacy Policy on our website, which may be updated by us from time to time. Please check this page regularly to take notice of any changes we may have made to the Terms of Service.</p>
-            <p class="text-sm pb-1 inline-block mb-4 border-b border-b-black font-semibold text-black">2. Use of the Website</p>
-            <ul class="list-disc ml-3">
-                <li class="text-sm mb-3 font-medium text-gray-700">You must be at least 18 years old to use this website.</li>
-                <li class="text-sm mb-3 font-medium text-gray-700">You agree not to use the website for any illegal or unauthorized purpose.</li>
-                <li class="text-sm mb-3 font-medium text-gray-700">You must not transmit any worms or viruses or any code of a destructive nature.</li>
-            </ul>
-            <p class="text-sm pb-1 inline-block mb-4 border-b border-b-black font-semibold text-black">3. Products and Services</p>
-            <ul class="list-disc ml-3">
-                <li class="text-sm mb-3 font-medium text-gray-700">All descriptions of products, pricing, and availability are subject to change at any time without notice.</li>
-                <li class="text-sm mb-3 font-medium text-gray-700">We reserve the right to discontinue any product at any time.</li>
-                <li class="text-sm mb-3 font-medium text-gray-700">We do not warrant that the quality of any products, services, information, or other material purchased or obtained by you will meet your expectations.</li>
-            </ul>
-            <p class="text-sm pb-1 inline-block mb-4 border-b border-b-black font-semibold text-black">4. Payment and Billing</p>
-            <ul class="list-disc ml-3">
-                <li class="text-sm mb-3 font-medium text-gray-700">All payments must be made through the payment methods provided on our website.</li>
-                <li class="text-sm mb-3 font-medium text-gray-700">You agree to provide current, complete, and accurate purchase and account information for all purchases made at our store.</li>
-            </ul>
-            <p class="text-sm pb-1 inline-block mb-4 border-b border-b-black font-semibold text-black">5. Shipping and Delivery</p>
-            <ul class="list-disc ml-3">
-                <li class="text-sm mb-3 font-medium text-gray-700">Shipping and delivery times are estimates and are not guaranteed. We are not responsible for delays due to customs clearance or other unforeseen circumstances.</li>
-            </ul>
-            <p class="text-sm pb-1 inline-block mb-4 border-b border-b-black font-semibold text-black">6. Returns and Refunds</p>
-            <ul class="list-disc ml-3">
-                <li class="text-sm mb-3 font-medium text-gray-700">Please refer to our Return Policy for detailed information on returns and refunds.</li>
-            </ul>
-            <p class="text-sm pb-1 inline-block mb-4 border-b border-b-black font-semibold text-black">7. Intellectual Property</p>
-            <ul class="list-disc ml-3">
-                <li class="text-sm mb-3 font-medium text-gray-700">All content included on the website, such as text, graphics, logos, images, and software, is the property of Fashion Mania or its content suppliers and is protected by international copyright laws.</li>
-            </ul>
-            <p class="text-sm pb-1 inline-block mb-4 border-b border-b-black font-semibold text-black">8. Limitation of Liability</p>
-            <ul class="list-disc ml-3">
-                <li class="text-sm mb-3 font-medium text-gray-700">Fashion Mania shall not be liable for any direct, indirect, incidental, special, or consequential damages resulting from the use or the inability to use our products or services.</li>
-            </ul>
-            <p class="text-sm pb-1 inline-block mb-4 border-b border-b-black font-semibold text-black">9. Governing Law</p>
-            <ul class="list-disc ml-3">
-                <li class="text-sm mb-3 font-medium text-gray-700">These terms and conditions are governed by and construed in accordance with the laws of [Your State/Country], and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.</li>
-            </ul>
-            <p class="text-sm pb-1 inline-block mb-4 border-b border-b-black font-semibold text-black">10. Changes to Terms and Conditions</p>
-            <ul class="list-disc ml-3">
-                <li class="text-sm mb-3 font-medium text-gray-700">We reserve the right to update or change our Terms and Conditions at any time. Any changes will be posted on this page with an updated effective date.</li>
-            </ul>
-            <p class="text-sm pb-1 inline-block mb-4 border-b border-b-black font-semibold text-black">11. Contact Us</p>
-            <ul class="list-disc ml-3">
-                <li class="text-sm mb-3 font-medium text-gray-700">If you have any questions about these Terms and Conditions, please contact us at: <br> Email: support@fashionmania.com</li>
-            </ul>
-        </div>
-    </section>
+            <section class="px-3 py-10 md:py-20 md:px-6">
+                <div class="innerbox2 flex flex-col min-[902px]:flex-row justify-between items-start max-w-[1170px] mx-auto">
+                    <div class="left w-full min-[902px]:max-w-[48%]">
+                        <div class="od_box mb-8 rounded-lg overflow-hidden border border-gray-300 shadow-sm">
+                            <h2 class="p-5 font-medium border-b border-b-gray-300 bg-slate-100">YOUR ORDERS</h2>
+                            <div onclick="toggleShipment('res-1', 'res-2')" role="button" class="d-btn1 p-5 text-sm border-b border-b-gray-300">
+                                <div class="text-slate-600 mb-2">Shipped</div>
+                                <div class="max-w-[370px] overflow-hidden whitespace-nowrap overflow-ellipsis"> New trendy black shatori warrior hooded pocket t.shirt for men</div>
+                            </div>
+                            <div onclick="toggleShipment('res-2', 'res-1')" role="button" class="d-btn2 p-5 text-sm">
+                                <div class="text-slate-600 mb-2">Delivered</div>
+                                <div class="max-w-[370px] overflow-hidden whitespace-nowrap overflow-ellipsis"> New trendy black shatori warrior hooded pocket t.shirt for men</div>
+                            </div>
+                        </div>
+                        <div class="od_res res-1 rounded-lg overflow-hidden border border-gray-300 shadow-sm">
+                            <h2 class="p-5 text-sm font-medium border-b border-b-gray-300 bg-slate-100">
+                                ORDER NUMBER: <span class="ml-1">#1453709</span><br>
+                                ESTIMATED DELIVERY
+                            </h2>
+                            <div class="p-5 text-sm border-b border-b-gray-300">
+                                <div class="max-w-[400px] text-xl overflow-hidden whitespace-nowrap font-medium overflow-ellipsis">ON THURSDAY JULY 16TH</div>
+                            </div>
+                            <div class="date_stamp py-[10px] px-5 text-sm border-b border-b-gray-300">
+                                <div class="max-w-[400px] text-xs overflow-hidden whitespace-nowrap font-medium overflow-ellipsis">14 July, 2024</div>
+                            </div>
+                            <div class="time_line p-5 text-sm">
+                                <!-- Timeline -->
+                                <div>
+                                    <!-- Item -->
+                                    <div class="flex gap-x-3">
+                                    <!-- Left Content -->
+                                    <div class="w-16 text-end">
+                                        <span class="text-xs text-gray-500 dark:text-neutral-400">12:05PM</span>
+                                    </div>
+                                    <!-- End Left Content -->
+                                
+                                    <!-- Icon -->
+                                    <div class="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+                                        <div class="relative z-10 size-7 flex justify-center items-center">
+                                        <div class="size-2 rounded-full bg-gray-400 dark:bg-neutral-600"></div>
+                                        </div>
+                                    </div>
+                                    <!-- End Icon -->
+                                
+                                    <!-- Right Content -->
+                                    <div class="grow pt-0.5 pb-8">
+                                        <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                                        <svg class="flex-shrink-0 size-4 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+                                            <polyline points="14 2 14 8 20 8"></polyline>
+                                            <line x1="16" x2="8" y1="13" y2="13"></line>
+                                            <line x1="16" x2="8" y1="17" y2="17"></line>
+                                            <line x1="10" x2="8" y1="9" y2="9"></line>
+                                        </svg>
+                                        Out for delivery 🚚
+                                        </h3>
+                                        <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                                        Find more detailed insctructions here.
+                                        </p>
+                                        <button type="button" class="mt-1 -ms-1 p-1 inline-flex items-center gap-x-2 text-xs rounded-lg border border-transparent text-gray-500 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-neutral-400 dark:hover:bg-neutral-700">
+                                        <img class="flex-shrink-0 size-4 rounded-full" src="https://images.unsplash.com/photo-1659482633369-9fe69af50bfb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8auto=format&fit=facearea&facepad=3&w=320&h=320&q=80" alt="Image Description">
+                                        James Collins
+                                        </button>
+                                    </div>
+                                    <!-- End Right Content -->
+                                    </div>
+                                    <!-- End Item -->
+                                
+                                    <!-- Item -->
+                                    <div class="flex gap-x-3">
+                                    <!-- Left Content -->
+                                    <div class="w-16 text-end">
+                                        <span class="text-xs text-gray-500 dark:text-neutral-400">12:05PM</span>
+                                    </div>
+                                    <!-- End Left Content -->
+                                
+                                    <!-- Icon -->
+                                    <div class="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+                                        <div class="relative z-10 size-7 flex justify-center items-center">
+                                        <div class="size-2 rounded-full bg-gray-400 dark:bg-neutral-600"></div>
+                                        </div>
+                                    </div>
+                                    <!-- End Icon -->
+                                
+                                    <!-- Right Content -->
+                                    <div class="grow pt-0.5 pb-8">
+                                        <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                                        Arrived at faculty 📦
+                                        </h3>
+                                        <button type="button" class="mt-1 -ms-1 p-1 inline-flex items-center gap-x-2 text-xs rounded-lg border border-transparent text-gray-500 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-neutral-400 dark:hover:bg-neutral-700">
+                                        <span class="flex flex-shrink-0 justify-center items-center size-4 bg-white border border-gray-200 text-[10px] font-semibold uppercase text-gray-600 rounded-full dark:bg-neutral-800 dark:border-neutral-700 dark:text-neutral-400">
+                                            A
+                                        </span>
+                                        At Gurugram, 122004
+                                        </button>
+                                    </div>
+                                    <!-- End Right Content -->
+                                    </div>
+                                    <!-- End Item -->
+                                
+                                    <!-- Item -->
+                                    <div class="flex gap-x-3">
+                                    <!-- Left Content -->
+                                    <div class="w-16 text-end">
+                                        <span class="text-xs text-gray-500 dark:text-neutral-400">12:05PM</span>
+                                    </div>
+                                    <!-- End Left Content -->
+                                
+                                    <!-- Icon -->
+                                    <div class="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+                                        <div class="relative z-10 size-7 flex justify-center items-center">
+                                        <div class="size-2 rounded-full bg-gray-400 dark:bg-neutral-600"></div>
+                                        </div>
+                                    </div>
+                                    <!-- End Icon -->
+                                
+                                    <!-- Right Content -->
+                                    <div class="grow pt-0.5 pb-8">
+                                        <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                                        Shipment acceptance ✈️
+                                        </h3>
+                                        <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                                        IGI international airport, Delhi 
+                                        </p>
+                                        <button type="button" class="mt-1 -ms-1 p-1 inline-flex items-center gap-x-2 text-xs rounded-lg border border-transparent text-gray-500 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-neutral-400 dark:hover:bg-neutral-700">
+                                        <img class="flex-shrink-0 size-4 rounded-full" src="https://images.unsplash.com/photo-1659482633369-9fe69af50bfb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=3&w=320&h=320&q=80" alt="Image Description">
+                                        James Collins
+                                        </button>
+                                    </div>
+                                    <!-- End Right Content -->
+                                    </div>
+                                    <!-- End Item -->
+                                
+                                    <!-- Item -->
+                                    <div class="flex gap-x-3">
+                                    <!-- Left Content -->
+                                    <div class="w-16 text-end">
+                                        <span class="text-xs text-gray-500 dark:text-neutral-400">12:05PM</span>
+                                    </div>
+                                    <!-- End Left Content -->
+                                
+                                    <!-- Icon -->
+                                    <div class="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+                                        <div class="relative z-10 size-7 flex justify-center items-center">
+                                        <div class="size-2 rounded-full bg-gray-400 dark:bg-neutral-600"></div>
+                                        </div>
+                                    </div>
+                                    <!-- End Icon -->
+                                
+                                    <!-- Right Content -->
+                                    <div class="grow pt-0.5 pb-8">
+                                        <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                                        Order Request Received ⛳️
+                                        </h3>
+                                        <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                                        Gurugram District, 122004 😉
+                                        </p>
+                                    </div>
+                                    <!-- End Right Content -->
+                                    </div>
+                                    <!-- End Item -->
+                                </div>
+                                <!-- End Timeline -->
+                            </div>
+                        </div>
+                        <div class="od_res res-2 hidden rounded-lg overflow-hidden border border-gray-300 shadow-sm">
+                            <h2 class="p-5 text-sm font-medium border-b border-b-gray-300 bg-slate-100">
+                                ORDER NUMBER: <span class="ml-1">#1453709</span><br>
+                                DELIVERED
+                            </h2>
+                            <div class="p-5 text-sm border-b border-b-gray-300">
+                                <div class="max-w-[400px] text-xl overflow-hidden whitespace-nowrap font-medium overflow-ellipsis">DELIVERED ON THURSDAY JULY 16TH</div>
+                            </div>
+                            <div class="date_stamp py-[10px] px-5 text-sm border-b border-b-gray-300">
+                                <div class="max-w-[400px] text-xs overflow-hidden whitespace-nowrap font-medium overflow-ellipsis">14 July, 2024</div>
+                            </div>
+                            <div class="time_line p-5 text-sm">
+                                <!-- Timeline -->
+                                <div>
+                                    <!-- Item -->
+                                    <div class="flex gap-x-3">
+                                    <!-- Left Content -->
+                                    <div class="w-16 text-end">
+                                        <span class="text-xs text-gray-500 dark:text-neutral-400">12:05PM</span>
+                                    </div>
+                                    <!-- End Left Content -->
+                                
+                                    <!-- Icon -->
+                                    <div class="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+                                        <div class="relative z-10 size-7 flex justify-center items-center">
+                                        <div class="size-2 rounded-full bg-gray-400 dark:bg-neutral-600"></div>
+                                        </div>
+                                    </div>
+                                    <!-- End Icon -->
+                                
+                                    <!-- Right Content -->
+                                    <div class="grow pt-0.5 pb-8">
+                                        <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                                        <svg class="flex-shrink-0 size-4 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+                                            <polyline points="14 2 14 8 20 8"></polyline>
+                                            <line x1="16" x2="8" y1="13" y2="13"></line>
+                                            <line x1="16" x2="8" y1="17" y2="17"></line>
+                                            <line x1="10" x2="8" y1="9" y2="9"></line>
+                                        </svg>
+                                        Out for delivery 🚚
+                                        </h3>
+                                        <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                                        Find more detailed insctructions here.
+                                        </p>
+                                        <button type="button" class="mt-1 -ms-1 p-1 inline-flex items-center gap-x-2 text-xs rounded-lg border border-transparent text-gray-500 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-neutral-400 dark:hover:bg-neutral-700">
+                                        <img class="flex-shrink-0 size-4 rounded-full" src="https://images.unsplash.com/photo-1659482633369-9fe69af50bfb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8auto=format&fit=facearea&facepad=3&w=320&h=320&q=80" alt="Image Description">
+                                        James Collins
+                                        </button>
+                                    </div>
+                                    <!-- End Right Content -->
+                                    </div>
+                                    <!-- End Item -->
+                                
+                                    <!-- Item -->
+                                    <div class="flex gap-x-3">
+                                    <!-- Left Content -->
+                                    <div class="w-16 text-end">
+                                        <span class="text-xs text-gray-500 dark:text-neutral-400">12:05PM</span>
+                                    </div>
+                                    <!-- End Left Content -->
+                                
+                                    <!-- Icon -->
+                                    <div class="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+                                        <div class="relative z-10 size-7 flex justify-center items-center">
+                                        <div class="size-2 rounded-full bg-gray-400 dark:bg-neutral-600"></div>
+                                        </div>
+                                    </div>
+                                    <!-- End Icon -->
+                                
+                                    <!-- Right Content -->
+                                    <div class="grow pt-0.5 pb-8">
+                                        <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                                        Arrived at faculty 📦
+                                        </h3>
+                                        <button type="button" class="mt-1 -ms-1 p-1 inline-flex items-center gap-x-2 text-xs rounded-lg border border-transparent text-gray-500 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-neutral-400 dark:hover:bg-neutral-700">
+                                        <span class="flex flex-shrink-0 justify-center items-center size-4 bg-white border border-gray-200 text-[10px] font-semibold uppercase text-gray-600 rounded-full dark:bg-neutral-800 dark:border-neutral-700 dark:text-neutral-400">
+                                            A
+                                        </span>
+                                        At Gurugram, 122004
+                                        </button>
+                                    </div>
+                                    <!-- End Right Content -->
+                                    </div>
+                                    <!-- End Item -->
+                                
+                                    <!-- Item -->
+                                    <div class="flex gap-x-3">
+                                    <!-- Left Content -->
+                                    <div class="w-16 text-end">
+                                        <span class="text-xs text-gray-500 dark:text-neutral-400">12:05PM</span>
+                                    </div>
+                                    <!-- End Left Content -->
+                                
+                                    <!-- Icon -->
+                                    <div class="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+                                        <div class="relative z-10 size-7 flex justify-center items-center">
+                                        <div class="size-2 rounded-full bg-gray-400 dark:bg-neutral-600"></div>
+                                        </div>
+                                    </div>
+                                    <!-- End Icon -->
+                                
+                                    <!-- Right Content -->
+                                    <div class="grow pt-0.5 pb-8">
+                                        <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                                        Shipment acceptance ✈️
+                                        </h3>
+                                        <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                                        IGI international airport, Delhi 
+                                        </p>
+                                        <button type="button" class="mt-1 -ms-1 p-1 inline-flex items-center gap-x-2 text-xs rounded-lg border border-transparent text-gray-500 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-neutral-400 dark:hover:bg-neutral-700">
+                                        <img class="flex-shrink-0 size-4 rounded-full" src="https://images.unsplash.com/photo-1659482633369-9fe69af50bfb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=3&w=320&h=320&q=80" alt="Image Description">
+                                        James Collins
+                                        </button>
+                                    </div>
+                                    <!-- End Right Content -->
+                                    </div>
+                                    <!-- End Item -->
+                                
+                                    <!-- Item -->
+                                    <div class="flex gap-x-3">
+                                    <!-- Left Content -->
+                                    <div class="w-16 text-end">
+                                        <span class="text-xs text-gray-500 dark:text-neutral-400">12:05PM</span>
+                                    </div>
+                                    <!-- End Left Content -->
+                                
+                                    <!-- Icon -->
+                                    <div class="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+                                        <div class="relative z-10 size-7 flex justify-center items-center">
+                                        <div class="size-2 rounded-full bg-gray-400 dark:bg-neutral-600"></div>
+                                        </div>
+                                    </div>
+                                    <!-- End Icon -->
+                                
+                                    <!-- Right Content -->
+                                    <div class="grow pt-0.5 pb-8">
+                                        <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+                                        Order Request Received ⛳️
+                                        </h3>
+                                        <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                                        Gurugram District, 122004 😉
+                                        </p>
+                                    </div>
+                                    <!-- End Right Content -->
+                                    </div>
+                                    <!-- End Item -->
+                                </div>
+                                <!-- End Timeline -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right w-full mt-8 min-[902px]:mt-0 min-[902px]:max-w-[48%]">
+                        <div class="od_res2 res-1 rounded-lg overflow-hidden border border-gray-300 shadow-sm">
+                            <h2 class="p-5 text-sm font-medium border-b border-b-gray-300 bg-slate-100">
+                                TRACKING ID: 5562558837402348
+                            </h2>
+                            <div class="p-5 text-sm border-b border-b-gray-300">
+                                <div class="max-w-[400px] text-xl overflow-hidden whitespace-nowrap font-medium overflow-ellipsis">ITEMS IN THIS BUCKET</div>
+                            </div>
+                            <ul class="shipment p-5 ul_list mr-5">
+                                <li class="flex space-y-2 py-3 text-left flex-row space-x-5 sm:space-y-0">
+                                  <div class="shrink-0 relative">
+                                    <span class="absolute -top-[12px] -right-1 border border-gray-200 flex h-6 w-6 items-center justify-center rounded-full bg-white text-sm font-medium text-gray-500 shadow">1</span>
+                                    <img class="size-20 max-w-full rounded-lg object-cover" src="./img/teal_blue_oversized_full_sleeves_t-shirt_for_men_base_20_12_2023_400x533.jpg" alt="">
+                                  </div>
+              
+                                  <div class="relative flex flex-1 flex-col justify-between">
+                                    <div class="sm:col-gap-5 sm:grid sm:grid-cols-2">
+                                      <div class="pr-8 sm:pr-5">
+                                        <p class="text-xs font-semibold text-gray-900">Men Teal Tees</p>
+                                        <p class="mx-0 mt-1 mb-0 text-xs text-gray-400">Size - M</p>
+                                        <p class="mx-0 mt-1 mb-0 text-xs text-gray-400">Color - Teal</p>
+                                      </div>
+              
+                                      <div class="mt-4 flex items-end justify-between sm:mt-0 sm:items-start sm:justify-end">
+                                        <p class="shrink-0 w-20 text-xs font-semibold text-gray-900 sm:order-2 sm:ml-8 sm:text-right">$1259.00</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </li>
+              
+                                <li class="flex space-y-2 py-3 text-left flex-row space-x-5 sm:space-y-0">
+                                  <div class="shrink-0 relative">
+                                    <span class="absolute -top-[12px] -right-1 flex border border-gray-200 h-6 w-6 items-center justify-center rounded-full bg-white text-sm font-medium text-gray-500 shadow">1</span>
+                                    <img class="size-20 max-w-full rounded-lg object-cover" src="./img/women-s-black-bears-in-the-city-graphic-printed-oversized-t-shirt-610867-1696418044-1.webp" alt="">
+                                  </div>
+              
+                                  <div class="relative flex flex-1 flex-col justify-between">
+                                    <div class="sm:col-gap-5 sm:grid sm:grid-cols-2">
+                                      <div class="pr-8 sm:pr-5">
+                                        <p class="text-xs font-semibold text-gray-900">Men Teal Tees</p>
+                                        <p class="mx-0 mt-1 mb-0 text-xs text-gray-400">Size - M</p>
+                                        <p class="mx-0 mt-1 mb-0 text-xs text-gray-400">Color - Black</p>
+                                      </div>
+              
+                                      <div class="mt-4 flex items-end justify-between sm:mt-0 sm:items-start sm:justify-end">
+                                        <p class="shrink-0 w-20 text-xs font-semibold text-gray-900 sm:order-2 sm:ml-8 sm:text-right">$1259.00</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </li>
+              
+                                <li class="flex space-y-2 pt-3 text-left flex-row space-x-5 sm:space-y-0">
+                                  <div class="shrink-0 relative">
+                                    <span class="absolute -top-[12px] -right-1 flex border border-gray-200 h-6 w-6 items-center justify-center rounded-full bg-white text-sm font-medium text-gray-500 shadow">1</span>
+                                    <img class="size-20 max-w-full rounded-lg object-cover" src="./img/men-s-black-mickey.webp" alt="">
+                                  </div>
+              
+                                  <div class="relative flex flex-1 flex-col justify-between">
+                                    <div class="sm:col-gap-5 sm:grid sm:grid-cols-2">
+                                      <div class="pr-8 sm:pr-5">
+                                        <p class="text-xs font-semibold text-gray-900">Men Teal Tees</p>
+                                        <p class="mx-0 mt-1 mb-0 text-xs text-gray-400">Size - M</p>
+                                        <p class="mx-0 mt-1 mb-0 text-xs text-gray-400">Color - Black</p>
+                                      </div>
+              
+                                      <div class="mt-4 flex items-end justify-between sm:mt-0 sm:items-start sm:justify-end">
+                                        <p class="shrink-0 w-20 text-xs font-semibold text-gray-900 sm:order-2 sm:ml-8 sm:text-right">$1259.00</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </li>
+                              </ul>
+                        </div>
+                        <div class="od_res2 res-2 hidden rounded-lg overflow-hidden border border-gray-300 shadow-sm">
+                            <h2 class="p-5 text-sm font-medium border-b border-b-gray-300 bg-slate-100">
+                                TRACKING ID: 5562558837402000
+                            </h2>
+                            <div class="p-5 text-sm border-b border-b-gray-300">
+                                <div class="max-w-[400px] text-xl overflow-hidden whitespace-nowrap font-medium overflow-ellipsis">ITEMS IN THIS BUCKET</div>
+                            </div>
+                            <ul class="shipment p-5 ul_list mr-5">
+                                <li class="flex space-y-2 py-3 text-left flex-row space-x-5 sm:space-y-0">
+                                  <div class="shrink-0 relative">
+                                    <span class="absolute -top-[12px] -right-1 border border-gray-200 flex h-6 w-6 items-center justify-center rounded-full bg-white text-sm font-medium text-gray-500 shadow">1</span>
+                                    <img class="size-20 max-w-full rounded-lg object-cover" src="./img/teal_blue_oversized_full_sleeves_t-shirt_for_men_base_20_12_2023_400x533.jpg" alt="">
+                                  </div>
+              
+                                  <div class="relative flex flex-1 flex-col justify-between">
+                                    <div class="sm:col-gap-5 sm:grid sm:grid-cols-2">
+                                      <div class="pr-8 sm:pr-5">
+                                        <p class="text-xs font-semibold text-gray-900">Men Teal Tees</p>
+                                        <p class="mx-0 mt-1 mb-0 text-xs text-gray-400">Size - M</p>
+                                        <p class="mx-0 mt-1 mb-0 text-xs text-gray-400">Color - Teal</p>
+                                      </div>
+              
+                                      <div class="mt-4 flex items-end justify-between sm:mt-0 sm:items-start sm:justify-end">
+                                        <p class="shrink-0 w-20 text-xs font-semibold text-gray-900 sm:order-2 sm:ml-8 sm:text-right">$1259.00</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </li>
+              
+                                <li class="flex space-y-2 py-3 text-left flex-row space-x-5 sm:space-y-0">
+                                  <div class="shrink-0 relative">
+                                    <span class="absolute -top-[12px] -right-1 flex border border-gray-200 h-6 w-6 items-center justify-center rounded-full bg-white text-sm font-medium text-gray-500 shadow">1</span>
+                                    <img class="size-20 max-w-full rounded-lg object-cover" src="./img/women-s-black-bears-in-the-city-graphic-printed-oversized-t-shirt-610867-1696418044-1.webp" alt="">
+                                  </div>
+              
+                                  <div class="relative flex flex-1 flex-col justify-between">
+                                    <div class="sm:col-gap-5 sm:grid sm:grid-cols-2">
+                                      <div class="pr-8 sm:pr-5">
+                                        <p class="text-xs font-semibold text-gray-900">Men Teal Tees</p>
+                                        <p class="mx-0 mt-1 mb-0 text-xs text-gray-400">Size - M</p>
+                                        <p class="mx-0 mt-1 mb-0 text-xs text-gray-400">Color - Black</p>
+                                      </div>
+              
+                                      <div class="mt-4 flex items-end justify-between sm:mt-0 sm:items-start sm:justify-end">
+                                        <p class="shrink-0 w-20 text-xs font-semibold text-gray-900 sm:order-2 sm:ml-8 sm:text-right">$1259.00</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </li>
+              
+                                <li class="flex space-y-2 pt-3 text-left flex-row space-x-5 sm:space-y-0">
+                                  <div class="shrink-0 relative">
+                                    <span class="absolute -top-[12px] -right-1 flex border border-gray-200 h-6 w-6 items-center justify-center rounded-full bg-white text-sm font-medium text-gray-500 shadow">1</span>
+                                    <img class="size-20 max-w-full rounded-lg object-cover" src="./img/men-s-black-mickey.webp" alt="">
+                                  </div>
+              
+                                  <div class="relative flex flex-1 flex-col justify-between">
+                                    <div class="sm:col-gap-5 sm:grid sm:grid-cols-2">
+                                      <div class="pr-8 sm:pr-5">
+                                        <p class="text-xs font-semibold text-gray-900">Men Teal Tees</p>
+                                        <p class="mx-0 mt-1 mb-0 text-xs text-gray-400">Size - M</p>
+                                        <p class="mx-0 mt-1 mb-0 text-xs text-gray-400">Color - Black</p>
+                                      </div>
+              
+                                      <div class="mt-4 flex items-end justify-between sm:mt-0 sm:items-start sm:justify-end">
+                                        <p class="shrink-0 w-20 text-xs font-semibold text-gray-900 sm:order-2 sm:ml-8 sm:text-right">$1259.00</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </li>
+                              </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
     <!-- footer -->
   <footer class="bg-black text-white">
@@ -959,6 +1378,7 @@
   </footer>
   <!-- footer -->
 
+
     <script src="./preline.js"></script>
     <script>
         // search div
@@ -1016,6 +1436,19 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.classList.remove('no-scroll');
     });
 });
+
+function toggleShipment(showClass, hideClass) {
+        // hide
+        var hideDivs = document.getElementsByClassName(hideClass);
+        for (var i = 0; i < hideDivs.length; i++) {
+            hideDivs[i].classList.add('hidden');
+        }
+        // show
+        var showDivs = document.getElementsByClassName(showClass);
+        for (var i = 0; i < showDivs.length; i++) {
+            showDivs[i].classList.remove('hidden');
+        }
+    }
     </script>
 </body>
 </html>

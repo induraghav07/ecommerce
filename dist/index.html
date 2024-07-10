@@ -11,15 +11,15 @@
 <body class="font-Montserrat">
   <!-- ========== HEADER ========== -->
   <section class="bg-[#ffdd00] px-3">
-    <div class="inner_top max-w-[85rem] flex justify-center py-[6px]">
-      <span class="text-black text-xs font-semibold">Free Shipping Sitewide on Every Order, Don’t Miss Out!!</span>
+    <div class="inner_top max-w-[85rem] mx-auto flex justify-center py-[6px]">
+      <span class="text-black text-center text-xs font-semibold">Free Shipping Sitewide on Every Order, Don’t Miss Out!!</span>
     </div>
   </section>
   <section class="track_bar bg-black">
-    <div class="inner_top2 max-w-[85rem] px-4 md:px-8 mx-auto flex justify-between text-xs text-white py-[6px]">
+    <div class="inner_top2 max-w-[85rem] px-3 lg:px-6 min-[1360px]:px-0 mx-auto flex justify-between text-xs text-white py-[6px]">
       <div class="track_block items-center flex gap-3">
         <svg width="16" height="16" viewBox="0 0 16 23" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Vector"><path d="M15 8C15 14.5228 8 21 8 21C8 21 1 14.5228 1 8C1 3.47715 4.13401 1 8 1C11.866 1 15 3.5 15 8Z" stroke="white" stroke-width="1.5" stroke-linecap="round"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M8 5C9.65685 5 11 6.34315 11 8C11 9.65685 9.65685 11 8 11C6.34315 11 5 9.65685 5 8C5 6.34315 6.34315 5 8 5Z" stroke="white" stroke-width="1.5" stroke-linecap="round"></path></g></svg>
-        <a href="#" class="font-medium uppercase">Track Order</a>
+        <a href="tracking.html" class="font-medium uppercase">Track Order</a>
       </div>
       <div class="sign_in_block flex items-center uppercase">
         <a href="#" class="pr-3 mr-3 border-r border-r-white">Log In</a>
@@ -28,7 +28,7 @@
     </div>
   </section>
 <header class="flex flex-wrap sticky top-0 md:justify-start md:flex-nowrap z-50 w-full bg-white border-b border-b-gray-200 text-sm py-3 md:py-0 dark:bg-gray-800">
-  <nav class="max-w-[85rem] w-full mx-auto px-4 md:px-6 lg:px-8" aria-label="Global">
+  <nav class="max-w-[85rem] w-full mx-auto px-3 lg:px-6 min-[1360px]:px-0" aria-label="Global">
     <div class="relative md:flex md:items-center md:justify-between">
       <div class="flex items-center justify-between">
         <a class="flex-none w-[100px] text-xl font-semibold dark:text-white" href="#" aria-label="Brand"><img src="./img/logo.png" alt="logo"></a>
@@ -36,7 +36,7 @@
         <div class="md:hidden flex gap-4 items-center">
           <a href="#"><svg class="toggleButton2" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 15L21 21M10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10C17 13.866 13.866 17 10 17Z" stroke="black" stroke-width="1.5" stroke-linecap="round"></path></svg></a>
           <a href="wishlist.html"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M22 8.06253C22 15.0874 12.0004 21 12.0004 21C12.0004 21 2 15 2 8.07677C2 5.25003 4.22222 3.00003 7 3.00003C9.77778 3.00003 12 6.37503 12 6.37503C12 6.37503 14.2222 3.00003 17 3.00003C19.7778 3.00003 22 5.25003 22 8.06253Z" stroke="black" stroke-width="1.5" stroke-linecap="round"></path></svg></a>
-          <a href="cart.html" class="relative"><span class="size-4 flex justify-center items-center rounded-full bg-[#ffdd00] text-[10px] font-medium absolute -top-[8px] -right-[5px]">0</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 3L5.5 3L6 5M6 5L8 13M6 5H21L19 13H8M8 13H7.5C6.67157 13 6 13.6716 6 14.5C6 15.3284 6.67157 16 7.5 16H19M19 20C19 20.5523 18.5523 21 18 21C17.4477 21 17 20.5523 17 20C17 19.4477 17.4477 19 18 19C18.5523 19 19 19.4477 19 20ZM9 20C9 20.5523 8.55228 21 8 21C7.44772 21 7 20.5523 7 20C7 19.4477 7.44772 19 8 19C8.55228 19 9 19.4477 9 20Z" stroke="black" stroke-width="1.5" stroke-linecap="round"></path></svg></a>
+          <a onclick="onToggleDiv2(this)" class="relative cursor-pointer toggleButton3"><span class="size-4 flex justify-center items-center rounded-full bg-[#ffdd00] text-[10px] font-medium absolute -top-[8px] -right-[5px]">0</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 3L5.5 3L6 5M6 5L8 13M6 5H21L19 13H8M8 13H7.5C6.67157 13 6 13.6716 6 14.5C6 15.3284 6.67157 16 7.5 16H19M19 20C19 20.5523 18.5523 21 18 21C17.4477 21 17 20.5523 17 20C17 19.4477 17.4477 19 18 19C18.5523 19 19 19.4477 19 20ZM9 20C9 20.5523 8.55228 21 8 21C7.44772 21 7 20.5523 7 20C7 19.4477 7.44772 19 8 19C8.55228 19 9 19.4477 9 20Z" stroke="black" stroke-width="1.5" stroke-linecap="round"></path></svg></a>
           <button type="button" class="hs-collapse-toggle flex justify-center items-center size-9 text-sm font-semibold rounded-lg border border-gray-200 text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:border-gray-700 dark:hover:bg-gray-700" data-hs-collapse="#navbar-collapse-with-animation" aria-controls="navbar-collapse-with-animation" aria-label="Toggle navigation">
             <svg class="hs-collapse-open:hidden flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" x2="21" y1="6" y2="6"/><line x1="3" x2="21" y1="12" y2="12"/><line x1="3" x2="21" y1="18" y2="18"/></svg>
             <svg class="hs-collapse-open:block hidden flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
@@ -524,7 +524,7 @@
             
               
               <a href="wishlist.html"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M22 8.06253C22 15.0874 12.0004 21 12.0004 21C12.0004 21 2 15 2 8.07677C2 5.25003 4.22222 3.00003 7 3.00003C9.77778 3.00003 12 6.37503 12 6.37503C12 6.37503 14.2222 3.00003 17 3.00003C19.7778 3.00003 22 5.25003 22 8.06253Z" stroke="black" stroke-width="1.5" stroke-linecap="round"></path></svg></a>
-              <a href="cart.html" class="relative"><span class="size-4 flex justify-center items-center rounded-full bg-[#ffdd00] text-[10px] font-medium absolute -top-[8px] -right-[5px]">0</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 3L5.5 3L6 5M6 5L8 13M6 5H21L19 13H8M8 13H7.5C6.67157 13 6 13.6716 6 14.5C6 15.3284 6.67157 16 7.5 16H19M19 20C19 20.5523 18.5523 21 18 21C17.4477 21 17 20.5523 17 20C17 19.4477 17.4477 19 18 19C18.5523 19 19 19.4477 19 20ZM9 20C9 20.5523 8.55228 21 8 21C7.44772 21 7 20.5523 7 20C7 19.4477 7.44772 19 8 19C8.55228 19 9 19.4477 9 20Z" stroke="black" stroke-width="1.5" stroke-linecap="round"></path></svg></a>
+              <a id="showOverlay2" onclick="onToggleDiv2(this)" class="relative cursor-pointer toggleButton3"><span class="size-4 flex justify-center items-center rounded-full bg-[#ffdd00] text-[10px] font-medium absolute -top-[8px] -right-[5px]">0</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 3L5.5 3L6 5M6 5L8 13M6 5H21L19 13H8M8 13H7.5C6.67157 13 6 13.6716 6 14.5C6 15.3284 6.67157 16 7.5 16H19M19 20C19 20.5523 18.5523 21 18 21C17.4477 21 17 20.5523 17 20C17 19.4477 17.4477 19 18 19C18.5523 19 19 19.4477 19 20ZM9 20C9 20.5523 8.55228 21 8 21C7.44772 21 7 20.5523 7 20C7 19.4477 7.44772 19 8 19C8.55228 19 9 19.4477 9 20Z" stroke="black" stroke-width="1.5" stroke-linecap="round"></path></svg></a>
             </div>
             <div class="text-center">
               <button type="button" class="py-2.5 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-black text-white hover:bg-[#ffdd00] hover:text-black disabled:opacity-50 disabled:pointer-events-none" data-hs-overlay="#hs-subscription-with-image">
@@ -543,7 +543,12 @@
                   <p class="text-sm text-gray-500 dark:text-neutral-400">Signed in as</p>
                   <p class="text-sm font-medium text-gray-800 dark:text-neutral-300">james@site.com</p>
                 </div>
+                
                 <div class="mt-2 py-2 first:pt-0 last:pb-0">
+                  <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-neutral-300 dark:focus:bg-neutral-700" href="my_account.html">
+                    <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                   My Account
+                  </a>
                   <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-neutral-300 dark:focus:bg-neutral-700" href="#">
                     <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>
                    Notifications
@@ -567,7 +572,7 @@
         </div>
       </div>
       <!-- serch box -->
-      <div class="transition-[opacity,margin] toggleDiv2 hidden absolute top-16 right-0 duration border-t-2 border-t-black p-5 bg-white shadow-md max-w-96 mt-2 dark:bg-neutral-800 dark:border dark:border-neutral-700"> 
+      <div class="transition-[opacity,margin] search_s toggleDiv2 hidden absolute top-16 right-0 duration border-t-2 border-t-black p-5 bg-white shadow-md max-w-96 mt-2 dark:bg-neutral-800 dark:border dark:border-neutral-700"> 
         <div class="flex items-center">
         <input type="text" class='px-[10px] w-[70%] outline-none border border-[#e1e1e1] py-[9px]' name="search" id="search" placeholder="Search entire store here..." />
         <button class='bg-black py-[10px] w-[30%] text-white px-5'>Search</button>
@@ -589,6 +594,134 @@
         </div>
         </div>
         <!-- serch box -->
+         <!-- hidden mini cart -->
+         <div class="mini_cart toggle_div2 toggleDiv3 hidden mx-auto fixed z-50 top-0 right-0 bottom-0 w-full md:max-w-md">
+          <div id="overlay2" class="overlay2 -z-10 hidden" onclick="onCloseOverlay2()"></div>
+          <div class="bg-white h-screen shadow-xl ">
+            <button id="close" onclick="onCloseOverlay2()" type="button" class="inline-flex toggleButton3 absolute left-3 sm:left-7 md:-left-4  border border-white top-[7px] hover:bg-[#000000a1] bg-black justify-center items-center size-7 text-sm font-semibold border-transparent text-white disabled:opacity-50 disabled:pointer-events-none">
+              <span class="sr-only">Close</span>
+              <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg>
+            </button>
+            <div class="px-4 pt-10 pb-6 md:py-6 sm:px-7 h-full flex flex-col justify-evenly">
+              <div class="flow-root max-h-[245px] overflow-auto [&::-webkit-scrollbar]:w-[3px]
+              [&::-webkit-scrollbar-track]:bg-gray-100
+              [&::-webkit-scrollbar-thumb]:bg-gray-300">
+                <ul class="ul_list mr-5">
+
+                  <li class="flex space-y-2 py-3 text-left flex-row space-x-5 sm:space-y-0">
+                    <div class="shrink-0 relative">
+                      <span class="absolute -top-[12px] -right-1 border border-gray-200 flex h-6 w-6 items-center justify-center rounded-full bg-white text-sm font-medium text-gray-500 shadow">1</span>
+                      <img class="h-24 w-24 max-w-full rounded-lg object-cover" src="./img/teal_blue_oversized_full_sleeves_t-shirt_for_men_base_20_12_2023_400x533.jpg" alt="" />
+                    </div>
+
+                    <div class="relative flex flex-1 flex-col justify-between">
+                      <div class="sm:col-gap-5 sm:grid sm:grid-cols-2">
+                        <div class="pr-8 sm:pr-5">
+                          <p class="text-base font-semibold text-gray-900">Nike Air Max 2019</p>
+                          <p class="mx-0 mt-1 mb-0 text-sm text-gray-400">36EU - 4US</p>
+                        </div>
+
+                        <div class="mt-4 flex items-end justify-between sm:mt-0 sm:items-start sm:justify-end">
+                          <p class="shrink-0 w-20 text-base font-semibold text-gray-900 sm:order-2 sm:ml-8 sm:text-right">$1259.00</p>
+                        </div>
+                      </div>
+
+                      <div class="absolute top-0 right-0 flex sm:bottom-0 sm:top-auto">
+                        <button type="button" class="flex rounded p-2 text-center text-gray-500 transition-all duration-200 ease-in-out focus:shadow hover:text-gray-900">
+                          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" class=""></path>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="flex space-y-2 py-3 text-left flex-row space-x-5 sm:space-y-0">
+                    <div class="shrink-0 relative">
+                      <span class="absolute -top-[12px] -right-1 flex border border-gray-200 h-6 w-6 items-center justify-center rounded-full bg-white text-sm font-medium text-gray-500 shadow">1</span>
+                      <img class="h-24 w-24 max-w-full rounded-lg object-cover" src="./img/women-s-black-bears-in-the-city-graphic-printed-oversized-t-shirt-610867-1696418044-1.webp" alt="" />
+                    </div>
+
+                    <div class="relative flex flex-1 flex-col justify-between">
+                      <div class="sm:col-gap-5 sm:grid sm:grid-cols-2">
+                        <div class="pr-8 sm:pr-5">
+                          <p class="text-base font-semibold text-gray-900">Nike Air Max 2019</p>
+                          <p class="mx-0 mt-1 mb-0 text-sm text-gray-400">36EU - 4US</p>
+                        </div>
+
+                        <div class="mt-4 flex items-end justify-between sm:mt-0 sm:items-start sm:justify-end">
+                          <p class="shrink-0 w-20 text-base font-semibold text-gray-900 sm:order-2 sm:ml-8 sm:text-right">$1259.00</p>
+                        </div>
+                      </div>
+
+                      <div class="absolute top-0 right-0 flex sm:bottom-0 sm:top-auto">
+                        <button type="button" class="flex rounded p-2 text-center text-gray-500 transition-all duration-200 ease-in-out focus:shadow hover:text-gray-900">
+                          <svg class="block h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" class=""></path>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="flex space-y-2 py-3 text-left flex-row space-x-5 sm:space-y-0">
+                    <div class="shrink-0 relative">
+                      <span class="absolute -top-[12px] -right-1 flex border border-gray-200 h-6 w-6 items-center justify-center rounded-full bg-white text-sm font-medium text-gray-500 shadow">1</span>
+                      <img class="h-24 w-24 max-w-full rounded-lg object-cover" src="./img/men-s-black-mickey.webp" alt="" />
+                    </div>
+
+                    <div class="relative flex flex-1 flex-col justify-between">
+                      <div class="sm:col-gap-5 sm:grid sm:grid-cols-2">
+                        <div class="pr-8 sm:pr-5">
+                          <p class="text-base font-semibold text-gray-900">Nike Air Max 2019</p>
+                          <p class="mx-0 mt-1 mb-0 text-sm text-gray-400">36EU - 4US</p>
+                        </div>
+
+                        <div class="mt-4 flex items-end justify-between sm:mt-0 sm:items-start sm:justify-end">
+                          <p class="shrink-0 w-20 text-base font-semibold text-gray-900 sm:order-2 sm:ml-8 sm:text-right">$1259.00</p>
+                        </div>
+                      </div>
+                      
+                      <div class="absolute top-0 right-0 flex sm:bottom-0 sm:top-auto">
+                        <button type="button" class="flex rounded p-2 text-center text-gray-500 transition-all duration-200 ease-in-out focus:shadow hover:text-gray-900">
+                          <svg class="block h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" class=""></path>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+
+                </ul>
+              </div>
+
+              <div class="mt-3 space-y-3 border-t border-b py-3">
+                <div class="flex items-center justify-between">
+                  <p class="text-gray-400">Subtotal</p>
+                  <p class="text-lg font-semibold text-gray-900">$2399.00</p>
+                </div>
+                <div class="flex items-center justify-between">
+                  <p class="text-gray-400">Shipping</p>
+                  <p class="text-lg font-semibold text-gray-900">$8.00</p>
+                </div>
+              </div>
+              <div class="mt-6 flex items-center justify-between">
+                <p class="text-sm font-medium text-gray-900">Total</p>
+                <p class="text-[20px] font-semibold text-gray-900"><span class="text-xs font-normal text-gray-400">USD</span> 2499.00</p>
+              </div>
+
+              <div class="mt-5 text-center">
+                <button type="button" class="group inline-flex w-full items-center justify-center bg-black hover:bg-[#ffdd00] px-6 py-2 text-base font-medium text-white hover:text-black transition-all duration-200 ease-in-out focus:shadow">
+                  Place Order
+                  <svg xmlns="http://www.w3.org/2000/svg" class="group-hover:ml-8 ml-4 h-6 w-6 transition-all" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- hidden mini cart -->
     </div>
   </nav>
 </header>
@@ -790,7 +923,7 @@
   <section class="top_brands relative before:absolute before:top-0 before:start-0 before:z-10 before:w-20 before:h-full before:bg-gradient-to-r before:from-white before:to-transparent after:absolute after:top-0 after:end-0 after:w-20 after:h-full after:bg-gradient-to-l after:from-white after:to-transparent dark:before:from-neutral-900 dark:after:from-neutral-900">
     <!-- Clients -->
 <div class="brand-wrap max-w-[85rem] mx-auto overflow-auto">
-  <div class="w-[760px] mx-auto md:w-auto py-6 md:py-16 border-b border-b-gray-200">
+  <div class="w-[760px] mx-auto md:w-auto py-12 md:py-20 border-b border-b-gray-200">
     <div class="flex justify-between items-center gap-x-4">
       <a href="#"></a>
       <svg class="w-14 md:w-20 h-auto text-black mx-auto dark:text-white" enable-background="new 0 0 2499 614" viewBox="0 0 2499 614" xmlns="http://www.w3.org/2000/svg"><path d="m431.7 0h-235.5v317.8h317.8v-235.5c0-45.6-36.7-82.3-82.3-82.3zm-308.9 0h-40.5c-45.6 0-82.3 36.7-82.3 82.3v40.5h122.8zm-122.8 196.2h122.8v122.8h-122.8zm392.5 317.8h40.5c45.6 0 82.3-36.7 82.3-82.3v-39.2h-122.8zm-196.3-121.5h122.8v122.8h-122.8zm-196.2 0v40.5c0 45.6 36.7 82.3 82.3 82.3h40.5v-122.8zm828-359.6h-48.1v449.4h254.5v-43h-206.4zm360.8 119c-93.7 0-159.5 69.6-159.5 169.6v11.5c1.3 43 20.3 83.6 51.9 113.9 30.4 27.9 69.6 44.3 111.4 44.3h6.3c44.3 0 86.1-16.5 119-44.3l1.3-1.3-21.5-35.4-2.5 1.3c-26.6 24.1-59.5 38-94.9 38-58.2 0-117.7-38-121.5-122.8h243.1v-2.5s1.3-15.2 1.3-22.8c-.3-91.2-53.4-149.5-134.4-149.5zm-108.9 134.2c10.1-57 51.9-93.7 106.3-93.7 40.5 0 84.8 24.1 88.6 93.7zm521.6-96.2v16.5c-20.3-34.2-58.2-55.7-97.5-55.7h-3.8c-86.1 0-145.6 68.4-145.6 168.4 0 101.3 57 169.6 141.8 169.6 67.1 0 97.5-40.5 107.6-58.2v49.4h45.6v-447h-46.8v157zm-98.8 257c-59.5 0-98.7-50.6-98.7-126.6 0-73.4 41.8-125.3 100-125.3 49.4 0 98.7 39.2 98.7 125.3 0 93.7-51.9 126.6-100 126.6zm424.1-250.7v2.5c-8.9-15.2-36.7-48.1-103.8-48.1-84.8 0-140.5 64.6-140.5 163.3s58.2 165.8 144.3 165.8c46.8 0 78.5-16.5 100-50.6v44.3c0 62-39.2 97.5-108.9 97.5-29.1 0-59.5-7.6-86.1-21.5l-2.5-1.3-17.7 39.2 2.5 1.3c32.9 16.5 69.6 25.3 105.1 25.3 74.7 0 154.4-38 154.4-143.1v-311.3h-46.8zm-93.7 241.8c-62 0-102.5-48.1-102.5-122.8 0-76 35.4-119 96.2-119 67.1 0 98.7 39.2 98.7 119 1.3 78.5-31.6 122.8-92.4 122.8zm331.7-286.1c-93.7 0-158.2 69.6-158.2 168.4v11.4c1.3 43 20.3 83.6 51.9 113.9 30.4 27.9 69.6 44.3 111.4 44.3h6.3c44.3 0 86.1-16.5 119-44.3l1.3-1.3-22.8-35.4-2.5 1.3c-26.6 24.1-59.5 38-94.9 38-58.2 0-117.7-38-121.5-122.8h244.2v-2.5s1.3-15.2 1.3-22.8c0-89.9-53.2-148.2-135.5-148.2zm-107.6 134.2c10.1-57 51.9-93.7 106.3-93.7 40.5 0 84.8 24.1 88.6 93.7zm440.6-127.9c-6.3-1.3-11.4-1.3-17.7-2.5-44.3 0-81 27.9-100 74.7v-72.2h-46.8l1.3 320.3v2.5h48.1v-135.4c0-20.3 2.5-41.8 8.9-60.8 15.2-49.4 49.4-81 89.9-81 5.1 0 10.1 0 15.2 1.3h2.5v-46.8z" fill="currentColor"/></svg>
@@ -813,49 +946,53 @@
   </section>
 
   <!-- trending -->
-  <section class="top_categories px-4 overflow-auto md:px-6 lg:px-8 pt-7">
-    <div class="inner_category border-b border-b-gray-200 text-xs font-medium flex gap-4 justify-center pb-5 w-[1180px] mx-auto">
-      <a href="product_list.html" class="inner_block_card flex flex-col items-center min-w-24 max-w-28">
+  <section class="top_categories overflow-auto px-4 md:px-6 lg:px-8 pt-7">
+    <div class="inner_category border-b border-b-gray-200 text-xs font-medium flex gap-4 md:gap-8 justify-start pb-5 max-w-[85rem] mx-auto 
+    [&::-webkit-scrollbar]:h-1
+  [&::-webkit-scrollbar-track]:bg-gray-100
+  [&::-webkit-scrollbar-thumb]:bg-gray-300
+    overflow-auto">
+      <a href="product_list.html" class="inner_block_card flex flex-col items-center md:min-w-[11rem] w-[122px] min-w-24">
         <img src="./img/3-1706607566.jpeg" class="rounded-xl" alt="">
         <span class="pt-2">Men</span>
       </a>
 
-      <a href="product_list.html" class="inner_block_card flex flex-col items-center min-w-24 max-w-28">
+      <a href="product_list.html" class="inner_block_card flex flex-col items-center md:min-w-[11rem] w-[122px] min-w-24">
         <img src="./img/2-1706607565.jpeg" class="rounded-xl" alt="">
         <span class="pt-2">Women</span>
       </a>
 
-      <a href="product_list.html" class="inner_block_card flex flex-col items-center min-w-24 max-w-28">
+      <a href="product_list.html" class="inner_block_card flex flex-col items-center md:min-w-[11rem] w-[122px] min-w-24">
         <img src="./img/1-1706607566.jpeg" class="rounded-xl" alt="">
         <span class="pt-2">Accessories</span>
       </a>
 
-      <a href="product_list.html" class="inner_block_card flex flex-col items-center min-w-24 max-w-28">
+      <a href="product_list.html" class="inner_block_card flex flex-col items-center md:min-w-[11rem] w-[122px] min-w-24">
         <img src="./img/revamp_top-nav-samples_Plus-Size.jpg" class="rounded-xl" alt="">
         <span class="pt-2">Official Merch</span>
       </a>
 
-      <a href="product_list.html" class="inner_block_card flex flex-col items-center min-w-24 max-w-28">
+      <a href="product_list.html" class="inner_block_card flex flex-col items-center md:min-w-[11rem] w-[122px] min-w-24">
         <img src="./img/search-nav-icon-official-merch--2--1692250613.jpg" class="rounded-xl" alt="">
         <span class="pt-2">Plus Size</span>
       </a>
 
-      <a href="product_list.html" class="inner_block_card flex flex-col items-center min-w-24 max-w-28">
+      <a href="product_list.html" class="inner_block_card flex flex-col items-center md:min-w-[11rem] w-[122px] min-w-24">
         <img src="./img/SearchNav-HD-210x210-1698326777.avif" class="rounded-xl" alt="">
         <span class="pt-2">Joggers</span>
       </a>
 
-      <a href="product_list.html" class="inner_block_card flex flex-col items-center min-w-24 max-w-28">
+      <a href="product_list.html" class="inner_block_card flex flex-col items-center md:min-w-[11rem] w-[122px] min-w-24">
         <img src="./img/1-1706607566.jpeg" class="rounded-xl" alt="">
         <span class="pt-2">Men</span>
       </a>
 
-      <a href="product_list.html" class="inner_block_card flex flex-col items-center min-w-24 max-w-28">
+      <a href="product_list.html" class="inner_block_card flex flex-col items-center md:min-w-[11rem] w-[122px] min-w-24">
         <img src="./img/1-1706607566.jpeg" class="rounded-xl" alt="">
         <span class="pt-2">Men</span>
       </a>
 
-      <a href="product_list.html" class="inner_block_card flex flex-col items-center min-w-24 max-w-28">
+      <a href="product_list.html" class="inner_block_card flex flex-col items-center md:min-w-[11rem] w-[122px] min-w-24">
         <img src="./img/1-1706607566.jpeg" class="rounded-xl" alt="">
         <span class="pt-2">Men</span>
       </a>
@@ -865,7 +1002,7 @@
 
   <!-- summer banner -->
   <section class="px-3 lg:px-6">
-    <div class="inner_top max-w-[85rem] mx-auto flex justify-center py-6 md:py-16">
+    <div class="inner_top max-w-[85rem] mx-auto flex justify-center py-11 md:py-20">
      <a href="product_list.html" class="w-full"> 
       <img src="./img/homepag_banner_bottoms_copy.webp" class="img_banner w-full rounded-lg" alt="description"/>
       </a>
@@ -874,12 +1011,7 @@
   <!-- summer banner -->
    
   <!-- for men t.shirt -->
-  <section class="embla px-3 pb-6 lg:pb-16 lg:px-6 max-w-[85rem] mx-auto">
-    <div class="wrapi flex">
-      <div class="for-men w-[30%] flex justify-start leading-4 py-3 mb-4 text-[18px] font-semibold">
-        <p class="ml-3">FOR MEN</p>
-      </div>
-    </div>
+  <section class="embla px-3 pb-12 lg:pb-20 lg:px-6 min-[1360px]:px-0 max-w-[85rem] mx-auto">
     <div class="controlx flex mb-5 justify-between items-center">
       <span class="text-xs pl-3 border-l-4 font-semibold uppercase border-l-[#ffdd00]">T.Shirts</span>
       <!-- controls -->
@@ -1068,7 +1200,7 @@
    <!-- for men t.shirt -->
 
    <!-- for men bottom -->
-   <section class="embla px-3 pb-6 lg:pb-16 lg:px-6 max-w-[85rem] mx-auto">
+   <section class="embla px-3 pb-12 lg:pb-20 lg:px-6 min-[1360px]:px-0 max-w-[85rem] mx-auto">
     <div class="controlx flex mb-5 justify-between items-center">
       <span class="text-xs pl-3 border-l-4 font-semibold uppercase border-l-[#ffdd00]">Bottom Wear</span>
       <!-- controls -->
@@ -1239,8 +1371,8 @@
    <!-- for men bottom -->
 
    <!-- discount banner 2 -->
-  <section class="px-3 lg:px-6">
-    <div class="inner_top max-w-[85rem] mx-auto flex justify-center pb-6 lg:pb-16">
+  <section class="px-3 lg:px-6 min-[1360px]:px-0">
+    <div class="inner_top max-w-[85rem] mx-auto flex justify-center pb-12 lg:pb-20">
      <a href="product_list.html" class="w-full"> 
       <img class="img_banner w-full h-auto rounded-lg" alt="description" src='./img/Boxer-home-page-banne1r-deskt1op-vi1ew.jpg'/>
       </a>
@@ -1249,8 +1381,8 @@
   <!-- discount banner 2 -->
 
   <!-- saving zone -->
-  <section class="px-3 lg:px-6">
-    <div class="inner_top max-w-[85rem] mx-auto pb-6 lg:pb-16">
+  <section class="px-3 lg:px-6 min-[1360px]:px-0">
+    <div class="inner_top max-w-[85rem] mx-auto pb-12 lg:pb-20">
     <span class="text-xs pl-3 border-l-4 font-semibold uppercase border-l-[#ffdd00]">Big Saving Zone</span>
         <div class="wrap overflow-auto pb-5 [&::-webkit-scrollbar]:h-1
         [&::-webkit-scrollbar-track]:bg-gray-100
@@ -1289,12 +1421,7 @@
 <!-- saving zone -->
 
   <!-- for women -->
-  <section class="embla px-3 pb-6 lg:pb-16 lg:px-6 max-w-[85rem] mx-auto">
-    <div class="wrapi flex justify-start">
-      <div class="for-women w-[30%] leading-4 py-3 mb-4 text-[18px] font-semibold">
-        <p class="ml-3">FOR WOMEN</p>
-      </div>
-    </div>
+  <section class="embla px-3 pb-12 lg:pb-20 lg:px-6 min-[1360px]:px-0 max-w-[85rem] mx-auto">
     <div class="controlx flex mb-5 justify-between items-center">
       <span class="text-xs pl-3 border-l-4 font-semibold uppercase border-l-[#ffdd00]">Latest Arrivals</span>
       <!-- controls -->
@@ -1465,7 +1592,7 @@
    <!-- for women -->
 
   <!-- product slider -->
-  <section class="embla px-3 pb-6 lg:pb-16 lg:px-6 max-w-[85rem] mx-auto">
+  <section class="embla px-3 pb-12 lg:pb-20 lg:px-6 min-[1360px]:px-0 max-w-[85rem] mx-auto">
     <div class="controlx flex mb-5 justify-between items-center">
       <span class="text-xs pl-3 border-l-4 font-semibold uppercase border-l-[#ffdd00]">Bestsellers</span>
       <!-- controls -->
@@ -1806,8 +1933,8 @@
   <!-- product slider -->
 
   <!-- discount banner -->
-  <section class="px-3 lg:px-6">
-    <div class="inner_top max-w-[85rem] mx-auto flex justify-center pb-6 lg:pb-16">
+  <section class="px-3 lg:px-6 min-[1360px]:px-0">
+    <div class="inner_top max-w-[85rem] mx-auto flex justify-center pb-12 lg:pb-20">
      <a href="product_list.html" class="w-full"> 
       <img class="img_banner w-full h-auto rounded-lg" alt="description" src='./img/strip-desktop.png'/>
       </a>
@@ -1816,7 +1943,7 @@
   <!-- discount banner -->
 
   <!-- fresh collection -->
-  <section class="px-3 lg:px-6 pb-6 lg:pb-16">
+  <section class="px-3 lg:px-6 min-[1360px]:px-0 pb-12 lg:pb-20">
   <div class="wrap_inner max-w-[85rem] mx-auto">
     <div class="controlx flex mb-5 justify-between items-center">
       <span class="text-xs pl-3 border-l-4 font-semibold uppercase border-l-[#ffdd00]">Fresh Collections</span>
@@ -1859,8 +1986,8 @@
   </section>
   <!-- fresh collection -->
 
-  <section class="tees_banner px-3 lg:px-6 pb-6 lg:pb-16">
-    <div class="inner_b">
+  <section class="tees_banner px-3 lg:px-6 min-[1360px]:px-0 pb-12 lg:pb-20">
+    <div class="inner_b max-w-[85rem] mx-auto">
       <a href="product_list.html">
       <img src="./img/Plain-T-Shirts-banner-12desktop12-view.jpg" class="rounded-lg" alt="secription">
       </a>
@@ -1868,7 +1995,7 @@
   </section>
 
   <!-- popular in men -->
-  <section class="embla px-3 pb-6 lg:pb-16 lg:px-6 max-w-[85rem] mx-auto">
+  <section class="embla px-3 pb-12 lg:pb-20 lg:px-6 min-[1360px]:px-0 max-w-[85rem] mx-auto">
     <div class="controlx flex mb-5 justify-between items-center">
       <span class="text-xs pl-3 border-l-4 font-semibold uppercase border-l-[#ffdd00]">Popular in men</span>
       <!-- controls -->
@@ -2337,6 +2464,47 @@
               });
           });
       });
+
+      // mini cart div toggle
+
+    document.addEventListener('DOMContentLoaded', function() {
+    const toggleDiv2 = document.querySelector('.toggle_div2');
+    const overlay2 = document.querySelector('.overlay2');
+
+    function onToggleDiv2(e) {
+        toggleDiv2.classList.toggle('hidden');
+        overlay2.classList.toggle('hidden');
+        overlay2.style.display = toggleDiv2.classList.contains('hidden') ? 'none' : 'block';
+    }
+
+    function onCloseOverlay2() {
+        toggleDiv2.classList.add('hidden');
+        overlay2.classList.add('hidden');
+        overlay2.style.display = 'none';
+    }
+
+    window.onToggleDiv2 = onToggleDiv2; 
+    window.onCloseOverlay2 = onCloseOverlay2;
+});
+
+//  no scroll 
+document.addEventListener('DOMContentLoaded', () => {
+    const showOverlayBtn2 = document.getElementById('showOverlay2');
+    const overlay2 = document.getElementById('overlay2');
+    const closeButton = document.getElementById('close');
+    showOverlayBtn2.addEventListener('click', () => {
+        document.body.classList.add('no-scroll');
+    });
+
+    overlay2.addEventListener('click', (event) => {
+        if (event.target === overlay2) {
+            document.body.classList.remove('no-scroll');
+        }
+    });
+    closeButton.addEventListener('click', () => {
+        document.body.classList.remove('no-scroll');
+    });
+});
 
     </script> 
 </body>
