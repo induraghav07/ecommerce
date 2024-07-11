@@ -808,12 +808,13 @@
       <div class="ac_heading mb-7 pb-3 border-b-2 border-b-[#ffdd00] inline-block">
         <h1 class="text-xl font-semibold">My Orders</h1>
     </div>
-    <div class="wrap-b">
-     <!-- Card -->        
-    <div class="pb-10 max-w-2xl">
-      <a class="group flex min-h-28 justify-center flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-neutral-900 dark:border-neutral-800" href="#">
+    <div class="wrap-b grid grid-cols-1 min-[965px]:grid-cols-2 gap-x-6 gap-y-6">
+      <div class="box-s flex flex-col gap-y-6">
+        <!-- Card -->     
+    <div class="card_s">
+      <div class="group flex min-h-28 justify-center flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-neutral-900 dark:border-neutral-800" href="#">
         <div class="p-4 md:p-5">
-          <div class="flex flex-col min-[430px]:flex-row gap-y-3 min-[430px]:gap-x-5 items-start">
+          <div class="flex flex-col min-[464px]:flex-row gap-y-3 min-[430px]:gap-x-5 items-start">
             <div class="left_b max-w-32">
                 <img src="./img/brown_printed_full_sleeve_oversized_t-shirt_for_men_base_04_04_2024_400x533.jpg" class="rounded-md" alt="image_description">
             </div>
@@ -822,7 +823,68 @@
                 <p class="order_id pb-4 font-medium text-gray-500 text-xs">ORDER# <span class="font-semibold text-gray-800">91256794</span></p>
                 <h2 class="text-sm font-medium text-gray-500 pb-4">Men's black Make Tracks Graphic Printed T-shirt</h2>
                 <p class="order_id pb-4 font-medium text-gray-500 text-xs">Size <span class="font-semibold text-gray-800">XL</span></p>
-                <p class="order_id pb-4 font-medium text-gray-500 text-xs">Color <span class="font-semibold text-gray-800">Black</span></p>
+                <div class="flex gap-3">
+                  <p class="order_id pb-4 font-medium text-gray-500 text-xs">Color <span class="font-semibold text-gray-800">Black</span></p>
+                  <p class="order_id pb-4 font-medium text-gray-500 text-xs">Qty <span class="font-semibold text-gray-800">1</span></p>
+                </div>
+                </div>
+                <div class="rbox inline-flex items-center gap-y-3 gap-x-3">
+                <span class="py-1.5 px-3 text-xs font-medium bg-green-100 text-green-700">Shipped</span>
+                <button type="button" class="py-1.5 px-3 inline-flex items-center gap-x-2 text-xs font-medium border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800">
+                    More Info
+                  </button>
+                  <p>
+                    <button type="button" class="hs-collapse-toggle inline-flex items-center gap-x-1 text-sm font-semibold rounded-lg border border-transparent text-gray-600 hover:text-gray-500 disabled:opacity-50 disabled:pointer-events-none dark:text-blue-500 dark:hover:text-blue-400" id="hs-show-hide-collapse" data-hs-collapse="#hs-show-hide-collapse-heading">
+                      <span class="hs-collapse-open:hidden">+ 1 item</span>
+                      <span class="hs-collapse-open:block hidden">Close</span>
+                      <svg class="hs-collapse-open:rotate-180 flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m6 9 6 6 6-6"></path>
+                      </svg>
+                    </button>
+                  </p> 
+                </div>
+            </div>
+          </div>
+          <!-- more items -->
+          <div id="hs-show-hide-collapse-heading" class="hs-collapse hidden mt-5 w-full overflow-hidden" aria-labelledby="hs-show-hide-collapse">
+            <div class="flex flex-col min-[464px]:flex-row gap-y-3 min-[430px]:gap-x-5 items-start">
+              <div class="left_b max-w-32">
+                  <img src="./img/men-s-black-chidori-kakashi-graphic-printed-t-shirt-642096-1717659825-6.webp" class="rounded-md" alt="image_description">
+              </div>
+              <div class="order_d">
+                  <div class="sbox">
+                  <h2 class="text-sm font-medium text-gray-500 pb-4">Men's black Make Tracks Graphic Printed T-shirt</h2>
+                  <p class="order_id pb-4 font-medium text-gray-500 text-xs">Size <span class="font-semibold text-gray-800">XL</span></p>
+                  <div class="flex gap-3">
+                    <p class="order_id pb-4 font-medium text-gray-500 text-xs">Color <span class="font-semibold text-gray-800">Black</span></p>
+                    <p class="order_id pb-4 font-medium text-gray-500 text-xs">Qty <span class="font-semibold text-gray-800">1</span></p>
+                  </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+        </div>
+         <!-- End Card -->
+
+         <!-- Card -->     
+    <div class="card_s">
+      <div class="group flex min-h-28 justify-center flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-neutral-900 dark:border-neutral-800" href="#">
+        <div class="p-4 md:p-5">
+          <div class="flex flex-col min-[464px]:flex-row gap-y-3 min-[430px]:gap-x-5 items-start">
+            <div class="left_b max-w-32">
+                <img src="./img/dark_grey_sulphur_urban_shirt_for_men_side_view_20_05_2024_400x533.jpg" class="rounded-md" alt="image_description">
+            </div>
+            <div class="order_d">
+                <div class="sbox">
+                <p class="order_id pb-4 font-medium text-gray-500 text-xs">ORDER# <span class="font-semibold text-gray-800">91256794</span></p>
+                <h2 class="text-sm font-medium text-gray-500 pb-4">Men's black Make Tracks Graphic Printed T-shirt</h2>
+                <p class="order_id pb-4 font-medium text-gray-500 text-xs">Size <span class="font-semibold text-gray-800">XL</span></p>
+                <div class="flex gap-3">
+                  <p class="order_id pb-4 font-medium text-gray-500 text-xs">Color <span class="font-semibold text-gray-800">Black</span></p>
+                  <p class="order_id pb-4 font-medium text-gray-500 text-xs">Qty <span class="font-semibold text-gray-800">1</span></p>
+                </div>
                 </div>
                 <div class="rbox inline-flex items-center gap-y-3 gap-x-3">
                 <span class="py-1.5 px-3 text-xs font-medium bg-green-100 text-green-700">Shipped</span>
@@ -833,52 +895,101 @@
             </div>
           </div>
         </div>
-      </a>
+      </div>  
+        </div>
+         <!-- End Card -->
+      </div>
+      <div class="box-s flex flex-col gap-y-6">
+        <!-- Card -->     
+    <div class="card_s">
+      <div class="group flex min-h-28 justify-center flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-neutral-900 dark:border-neutral-800" href="#">
+        <div class="p-4 md:p-5">
+          <div class="flex flex-col min-[464px]:flex-row gap-y-3 min-[430px]:gap-x-5 items-start">
+            <div class="left_b max-w-32">
+                <img src="./img/brown_camo_print_urban_shirt_for_men_base_22_05_2024_400x533.jpg" class="rounded-md" alt="image_description">
+            </div>
+            <div class="order_d">
+                <div class="sbox">
+                <p class="order_id pb-4 font-medium text-gray-500 text-xs">ORDER# <span class="font-semibold text-gray-800">91256794</span></p>
+                <h2 class="text-sm font-medium text-gray-500 pb-4">Men's black Make Tracks Graphic Printed T-shirt</h2>
+                <p class="order_id pb-4 font-medium text-gray-500 text-xs">Size <span class="font-semibold text-gray-800">XL</span></p>
+                <div class="flex gap-3">
+                  <p class="order_id pb-4 font-medium text-gray-500 text-xs">Color <span class="font-semibold text-gray-800">Black</span></p>
+                  <p class="order_id pb-4 font-medium text-gray-500 text-xs">Qty <span class="font-semibold text-gray-800">1</span></p>
+                </div>
+                </div>
+                <div class="rbox inline-flex items-center gap-y-3 gap-x-3">
+                <span class="py-1.5 px-3 text-xs font-medium bg-green-100 text-green-700">Shipped</span>
+                <button type="button" class="py-1.5 px-3 inline-flex items-center gap-x-2 text-xs font-medium border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800">
+                    More Info
+                  </button>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>  
         </div>
          <!-- End Card -->
 
-          <!-- Card -->        
-    <div class="pb-10 max-w-2xl">
-        <a class="group flex min-h-28 justify-center flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-neutral-900 dark:border-neutral-800" href="#">
-          <div class="p-4 md:p-5">
-            <div class="flex flex-col min-[430px]:flex-row gap-y-3 min-[430px]:gap-x-5 items-start">
+        <!-- Card -->     
+    <div class="card_s">
+      <div class="group flex min-h-28 justify-center flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-neutral-900 dark:border-neutral-800" href="#">
+        <div class="p-4 md:p-5">
+          <div class="flex flex-col min-[464px]:flex-row gap-y-3 min-[430px]:gap-x-5 items-start">
+            <div class="left_b max-w-32">
+                <img src="./img/pink_plain_oversized_t-shirt_for_men_base15_01_2024_400x533.jpg" class="rounded-md" alt="image_description">
+            </div>
+            <div class="order_d">
+                <div class="sbox">
+                <p class="order_id pb-4 font-medium text-gray-500 text-xs">ORDER# <span class="font-semibold text-gray-800">91256794</span></p>
+                <h2 class="text-sm font-medium text-gray-500 pb-4">Men's black Make Tracks Graphic Printed T-shirt</h2>
+                <p class="order_id pb-4 font-medium text-gray-500 text-xs">Size <span class="font-semibold text-gray-800">XL</span></p>
+                <div class="flex gap-3">
+                  <p class="order_id pb-4 font-medium text-gray-500 text-xs">Color <span class="font-semibold text-gray-800">Black</span></p>
+                  <p class="order_id pb-4 font-medium text-gray-500 text-xs">Qty <span class="font-semibold text-gray-800">1</span></p>
+                </div>
+                </div>
+                <div class="rbox inline-flex items-center gap-y-3 gap-x-3">
+                <span class="py-1.5 px-3 text-xs font-medium bg-green-100 text-green-700">Shipped</span>
+                <button type="button" class="py-1.5 px-3 inline-flex items-center gap-x-2 text-xs font-medium border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800">
+                    More Info
+                  </button>
+                  <p>
+                    <button type="button" class="hs-collapse-toggle inline-flex items-center gap-x-1 text-sm font-semibold rounded-lg border border-transparent text-gray-600 hover:text-gray-500 disabled:opacity-50 disabled:pointer-events-none dark:text-blue-500 dark:hover:text-blue-400" id="hs-show-hide-collapse" data-hs-collapse="#hs-show-hide-collapse-heading-2">
+                      <span class="hs-collapse-open:hidden">+ 1 item</span>
+                      <span class="hs-collapse-open:block hidden">Close</span>
+                      <svg class="hs-collapse-open:rotate-180 flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m6 9 6 6 6-6"></path>
+                      </svg>
+                    </button>
+                  </p> 
+                </div>
+            </div>
+          </div>
+          <!-- more items -->
+          <div id="hs-show-hide-collapse-heading-2" class="hs-collapse hidden mt-5 w-full overflow-hidden" aria-labelledby="hs-show-hide-collapse">
+            <div class="flex flex-col min-[464px]:flex-row gap-y-3 min-[430px]:gap-x-5 items-start">
               <div class="left_b max-w-32">
-                  <img src="./img/men-s-black-t-shirt-106.webp" class="rounded-md" alt="image_description">
+                  <img src="./img/brown_printed_full_sleeve_oversized_t-shirt_for_men_base_04_04_2024_400x533.jpg" class="rounded-md" alt="image_description">
               </div>
               <div class="order_d">
                   <div class="sbox">
-                  <h2 class="text-sm font-medium text-gray-500 pb-4">Men's black Make Tracks Graphic Printed T-shirt</h2> 
+                  <h2 class="text-sm font-medium text-gray-500 pb-4">Men's black Make Tracks Graphic Printed T-shirt</h2>
                   <p class="order_id pb-4 font-medium text-gray-500 text-xs">Size <span class="font-semibold text-gray-800">XL</span></p>
-                  <p class="order_id pb-4 font-medium text-gray-500 text-xs">Color <span class="font-semibold text-gray-800">Black</span></p>
+                  <div class="flex gap-3">
+                    <p class="order_id pb-4 font-medium text-gray-500 text-xs">Color <span class="font-semibold text-gray-800">Black</span></p>
+                    <p class="order_id pb-4 font-medium text-gray-500 text-xs">Qty <span class="font-semibold text-gray-800">1</span></p>
+                  </div>
                   </div>
               </div>
             </div>
-            <hr class="border-gray-300 my-5 dark:border-white">
-            <div class="flex flex-col min-[430px]:flex-row gap-y-3 min-[430px]:gap-x-5 items-start">
-                <div class="left_b max-w-32">
-                    <img src="./img/men-s-black-the.webp" class="rounded-md" alt="image_description">
-                </div>
-                <div class="order_d">
-                    <div class="sbox">
-                        <h2 class="text-sm font-medium text-gray-500 pb-4">Men's black Make Tracks Graphic Printed T-shirt</h2> 
-                        <p class="order_id pb-4 font-medium text-gray-500 text-xs">Size <span class="font-semibold text-gray-800">XL</span></p>
-                        <p class="order_id pb-4 font-medium text-gray-500 text-xs">Color <span class="font-semibold text-gray-800">Black</span></p>
-                        </div>
-                </div>
-              </div>
-              <div class="boxBtm pt-5">
-                <div class="rbox inline-flex items-center gap-y-3 gap-x-3">
-                    <span class="py-1.5 px-3 text-xs font-medium bg-green-100 text-green-700">Shipped</span>
-                    <button type="button" class="py-1.5 px-3 inline-flex items-center gap-x-2 text-xs font-medium border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800" fdprocessedid="nzsxhl">
-                        More Info
-                      </button>
-                      <p class="order_id font-medium text-gray-500 text-xs">ORDER# <span class="font-semibold text-gray-800">91256794</span></p>
-                    </div>
-              </div>
           </div>
-        </a>
-          </div>
-           <!-- End Card -->
+        </div>
+      </div>  
+        </div>
+         <!-- End Card -->
+      </div>
+     
      </div>
  </div>
 </section>
